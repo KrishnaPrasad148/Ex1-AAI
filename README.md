@@ -23,7 +23,7 @@ Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
 
-```
+```python
 
 import networkx as nx
 import pandas as pd
@@ -103,9 +103,13 @@ print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGus
 
 ## Output:
 
+### VARIABLE BANDS:
+
 ![alt text](Variable_bands1.png)
 
 ![alt text](Variable_band2.png)
+
+### GRAPH:
 
 ![alt text](Graph.png)
 
